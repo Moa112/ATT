@@ -10,5 +10,12 @@ int main ()
 
     printf("A sua idade eh: %d\n", x);
 
+    if(x >= 18)
+    {
+        printf("Voce eh maior de idade.\n");
+    } else {
+        printf("Voce é menor de idade.\n");
+    }
+
     return 0;
 }
